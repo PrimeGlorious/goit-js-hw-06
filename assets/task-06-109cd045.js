@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-ec808ebb.js";/* empty css               */const t=document.querySelector("#validation-input");function a(e){const i=e.currentTarget.value.length,n=+e.currentTarget.dataset.length;i===n?(t.classList.add("valid"),t.classList.remove("invalid")):(t.classList.add("invalid"),t.classList.remove("valid"))}t.addEventListener("blur",a);

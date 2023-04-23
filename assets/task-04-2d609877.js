@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-ec808ebb.js";/* empty css               */const t=document.querySelector("#value");let e=0;const n=document.querySelector('[data-action="decrement"]'),c=document.querySelector('[data-action="increment"]');n.addEventListener("click",o);c.addEventListener("click",r);function o(){e-=1,t.textContent=e}function r(){e+=1,t.textContent=e}

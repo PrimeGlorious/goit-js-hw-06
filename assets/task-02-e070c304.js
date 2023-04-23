@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-ec808ebb.js";/* empty css               */const n=["Potatoes","Mushrooms","Garlic","Tomatos","Herbs","Condiments"],s=document.querySelector("#ingredients"),i=n.map(t=>{const e=document.createElement("li");return e.classList.add("item"),e.textContent=t,e});s.append(...i);

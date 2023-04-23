@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-ec808ebb.js";/* empty css               */const l=document.querySelector(".login-form");l.addEventListener("submit",e=>{e.preventDefault();const r=e.currentTarget.elements,t=r.email.value,o=r.password.value;if(t===""||o===""){alert("All fields are required!");return}console.log({email:t,password:o}),l.reset()});

@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-ec808ebb.js";/* empty css               */const e=document.querySelector("#name-input"),n=document.querySelector("#name-output");e.addEventListener("input",t=>{n.textContent=t.currentTarget.value||"Anonymous"});
